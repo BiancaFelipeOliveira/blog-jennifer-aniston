@@ -1,4 +1,4 @@
-# 🌟 Blog sobre Jennifer Aniston: Uma Jornada de Aprendizado
+# 🌟 Blog sobre Jennifer Aniston: 
 
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/65903e6b-3f61-4a56-981b-83a53e218ed6" />
 
