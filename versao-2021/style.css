@@ -1,0 +1,135 @@
+*{
+	margin:0;
+	padding:0;
+	alignment-adjust: middle;
+}
+
+.body{
+	color: white;
+}
+.data {
+    color:rgba(113, 184, 255, 0.574);
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.menu ul li{
+	background-color: "white";
+	float: left;
+	width: 240px;
+	height: 40px;
+	display: inline-block;
+	text-align:center;
+	vertical-align:central;
+	font-size: 20px;
+	font-family: "Palatino Linotype", "Book Antiqua";
+	font-weight: bold;
+	position: center;
+	
+}
+
+.menu ul li:hover{
+	background-color: #E0FFFF;
+	
+}
+
+.menu ul{
+	padding: 0px;
+}
+
+.menu ul ul{
+	display: none;
+}
+
+.menu ul li:hover > ul{
+	display:block;
+}
+
+.menu ul ul ul{
+	margin-left: 201px;
+	top: 0px;
+	position: absolute;
+}
+
+.menu ul ul li:hover{
+	top: 0px;
+	background-color: #00b0f0;
+}
+
+.menu ul ul ul li:hover{
+	top: 0px;
+	background-color: #00b0f0;
+}
+
+.menu a{
+	color: #00b0f0;
+	text-decoration: none;
+}
+
+.whatsapp-link {
+	position:fixed;
+	width: 60px; 
+	height: 60px;
+	bottom: 40px;
+	left: 40px;
+	background-color:#00b0f0;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+	box-shadow: 1px 1px 2px #888;
+	z-index: 1000;
+}
+
+.fa-whatsapp {
+	margin-top: 16px;
+	
+}
+
+div.box{
+        font-family: "arial";
+        width: 300px;
+        max-width: 1024px;
+        height: 150px;
+        padding: -80px;
+        text-align: center;
+        z-index: 9999;
+        background-color: #87CEFA;    
+        display: block;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+}
+
+div.box h2{
+        font-size: 30px;
+        color: black;
+}
+
+div.box p{
+        color: black;
+        font-size: 20px;
+}
+
+span.fechar{
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        color: #191970;
+        cursor: pointer;
+        font-size: 25px;
+}
+
+div.box a{
+        color: #fff;
+        margin: 40px auto;
+        background-color: #FFA500;
+        padding: 10px 100px;
+        display: inline-block;
+        font-size: 26px;
+        cursor: pointer;
+        text-decoration: none;
+}

@@ -1,0 +1,552 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.logo {
+    width: 100%;
+}
+
+.banner {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+body {
+background-image: url(img/background.PNG);
+background-repeat: repeat;
+width: 80%;
+margin: 0 auto;
+border: 2px solid #93d6f7;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.data {
+    color:rgba(113, 184, 255, 0.574);
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.cabecalho-menu {
+    background-color: #f0ffff;
+    height: 23px;
+    padding: 15px;
+    display: flex;
+    gap: 42px;
+}
+.conteudo {
+    background-color:#f0ffff ;
+   
+
+}
+
+.cabecalho-menu-item {
+    color:#00b0f0;
+    text-decoration: none;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.cabecalho-menu-item:hover {
+    color:#00234a;
+    text-decoration: none;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.conteudo-principal-quemsomos-texto {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+
+    color: #63b6ff;
+    
+}
+
+
+.conteudo-principal-quemsomos-imagem {
+    width: 40%;
+    float: right;
+    display: inline;
+    
+}
+
+.conteudo-principal-quemsomos-tabela {
+    padding-left: 40px;
+
+}
+
+.conteudo-principal-quemsomos-titulo {
+    background-color: #63b6ff;
+    color: white;
+    padding-left: 20px;
+
+}
+
+.conteudo-principal-quemsomos-tabela tr {
+  display: flex;
+  justify-content: center; /* Alinha horizontalmente */
+  align-items: center; /* Alinha verticalmente */
+}
+
+
+
+.conteudo-principal-biografia-texto {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #63b6ff;
+    padding-left: 10%;
+    
+}
+
+.conteudo-principal-biografia-imagem {
+    width: 130%;
+    float: left;
+    display: inline;
+}
+
+.conteudo-principal-biografia-tabela {
+    padding-right: 40px;
+
+}
+
+.conteudo-principal-biografia-titulo {
+    background-color: #63b6ff;
+    color: white;
+    float: right;
+    padding-right: 20px;
+    padding-left: 85.4%;
+}
+
+
+
+
+.conteudo-principal-biografia-texto-segunda-parte {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #63b6ff;
+    padding-right: 10%;
+    
+}
+
+.conteudo-principal-biografia-imagem-segunda-parte {
+    width: 130%;
+    float: right;
+    display: inline;
+}
+
+.conteudo-principal-biografia-tabela-segunda-parte {
+    padding-left: 40px;
+
+}
+
+
+.conteudo-principal-biografia-texto-terceira-parte {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #63b6ff;
+    padding-left: 10%;
+    
+}
+
+.conteudo-principal-biografia-imagem-terceira-parte {
+    width: 110%;
+    float: left;
+    display: inline;
+}
+
+.conteudo-principal-biografia-tabela-terceira-parte {
+    padding-right: 40px;
+
+}
+
+
+.conteudo-principal-biografia-texto-quarta-parte {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #63b6ff;
+    padding-right: 10%;
+    
+}
+
+.conteudo-principal-biografia-imagem-quarta-parte {
+    width: 100%;
+    float: right;
+    display: inline;
+}
+
+.conteudo-principal-biografia-tabela-quarta-parte {
+    padding-left: 40px;
+
+}
+
+
+
+.conteudo-principal-biografia-texto-quinta-parte {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #63b6ff;
+    padding-left: 2%;
+    
+}
+
+.conteudo-principal-biografia-imagem-quinta-parte {
+    width: 70%;
+    float: left;
+    display: inline;
+}
+
+.conteudo-principal-biografia-tabela-quinta-parte {
+    padding-right: 40px;
+
+}
+
+
+.conteudo-principal-biografia-texto-sexta-parte {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #63b6ff;
+    padding-right: 10%;
+    padding-left: 2%;
+}
+
+.conteudo-principal-biografia-imagem-sexta-parte {
+    float: right;
+    display: inline;
+}
+
+.conteudo-principal-biografia-tabela-sexta-parte {
+    padding-left: 40px;
+
+}
+
+
+#img {
+    width: 285px;
+}
+
+
+
+
+.conteudo-principal-curiosidades-texto {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #63b6ff;
+    padding-left: 1%;
+    
+}
+
+.conteudo-principal-curiosidades-imagem {
+    width: 65%;
+    float: left;
+    display: inline;
+}
+
+.conteudo-principal-curiosidades-tabela {
+    padding-right: 40px;
+
+}
+
+.conteudo-principal-curiosidades-titulo {
+    background-color: #63b6ff;
+    color: white;
+    float: left;
+    padding-right: 81.3%;
+    padding-left: 10px;
+}
+
+.conteudo-principal-curiosidades-texto-segunda-parte {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #63b6ff;
+    padding-right: 10%;
+    
+}
+
+.conteudo-principal-curiosidades-imagem-segunda-parte {
+    width: 110%;
+    float: right;
+    display: inline;
+}
+
+.conteudo-principal-curiosidades-tabela-segunda-parte {
+    padding-left: 40px;
+
+}
+
+
+.conteudo-principal-curiosidades-texto-terceira-parte {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #63b6ff;
+    padding-left: 10%;
+    
+}
+
+.conteudo-principal-curiosidades-imagem-terceira-parte {
+    width: 90%;
+    float: left;
+    display: inline;
+}
+
+.conteudo-principal-curiosidades-tabela-terceira-parte {
+    padding-right: 40px;
+
+}
+
+
+.conteudo-principal-curiosidades-texto-quarta-parte {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #63b6ff;
+    padding-right: 10%;
+    
+}
+
+.conteudo-principal-curiosidades-imagem-quarta-parte {
+    width: 135%;
+    float: right;
+    display: inline;
+}
+
+.conteudo-principal-curiosidades-tabela-quarta-parte {
+    padding-left: 40px;
+
+}
+
+
+
+.conteudo-principal-curiosidades-texto-quinta-parte {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #63b6ff;    
+    padding: 10%;
+}
+
+.conteudo-principal-curiosidades-imagem-quinta-parte {
+    float: left;
+    display: inline;
+}
+
+
+
+#img2 {
+    width: 285px;
+}
+
+.conteudo-principal-curiosidades-texto-sexta-parte {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #63b6ff;
+    padding-right: 10%;
+    
+}
+
+.conteudo-principal-curiosidades-imagem-sexta-parte {
+    width: 70%;
+    float: right;
+    display: inline;
+}
+
+.conteudo-principal-curiosidades-tabela-sexta-parte {
+    padding-left: 40px;
+
+}
+#img3 {
+    width: 285px;
+}
+
+
+.conteudo-principal-curiosidades-texto-setima-parte {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #63b6ff;
+    padding-left: 10%;
+    
+}
+
+.conteudo-principal-curiosidades-imagem-setima-parte {
+    width: 90%;
+    float: left;
+    display: inline;
+}
+
+.conteudo-principal-curiosidades-tabela-setima-parte {
+    padding-right: 40px;
+
+}
+#img4 {
+    width: 285px;
+}
+
+
+.conteudo-principal-quemsomos-texto {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+
+    color: #63b6ff;
+    
+}
+
+
+.conteudo-principal-filmeseseries-titulo {
+        background-color: #63b6ff;
+        color: white;
+        float: right;
+        padding-right: 10px;
+        padding-left: 78.9%;   
+
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+    color:#63b6ff;
+}
+
+li {
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgba(99, 99, 99, 0.766)
+}
+
+.conteudo-principal-contato-titulo {
+    background-color: #63b6ff;
+    color: white;
+    padding-left: 20px;
+
+}
+
+
+
+
+.lbl {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#63b6ff;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+#lblEmail {
+    padding-left: 80px;
+
+}
+
+textarea {
+    margin-left: 20px;
+    padding-top: 0%;
+    border: 1px solid #00234a;
+}
+
+.lbl1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#00234a;
+    font-size: 12px;
+    font-weight: bolder;
+    margin: 10px;
+
+    justify-content: space-around;
+}
+
+input {
+    border: 1px solid #00234a;
+}
+
+#enviar {
+
+    margin-left: 20px;
+    background: #00234a;
+    color: #f0ffff;
+    border-style: outset;
+    border-color: #00234a;
+    height: 35px;
+    width: 80px;
+    font: bold 13px arial,sans-serif;
+    text-shadow: none;
+}
+
+#enviar:hover {
+
+    margin-left: 20px;
+    background: #73a5df;
+    color: #00234a;
+    border-style: outset;
+    border-color: #6ea2de;
+    height: 35px;
+    width: 80px;
+    font: bold 13px arial,sans-serif;
+    text-shadow: none;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-style: italic;
+    color:#000000
+}
+
+hr {
+    border: 1px solid #93d6f7da;
+}
+
+
+.redesocial-item {
+    width: 40px;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.redessociais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.redessociais a {
+    transition: 0.3s ease-in-out;
+    border-radius: 50px;
+}
+
+.redessociais a:hover {
+
+    transform: translateY(-10px);
+}
+
+footer {
+    background-color: #63b6ff;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
